@@ -1,0 +1,40 @@
+2020-07-19 16:51:38 [restartedMain] INFO  c.s.s.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 3692 (C:\github\spring-programatic-logging\target\classes started by santosh in C:\github\spring-programatic-logging)
+2020-07-19 16:51:38 [restartedMain] DEBUG c.s.s.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 16:51:38 [restartedMain] INFO  c.s.s.Application:655 - The following profiles are active: dev
+2020-07-19 16:51:39 [restartedMain] INFO  c.s.s.Application:61 - Started Application in 1.972 seconds (JVM running for 2.577)
+2020-07-19 16:51:39 [restartedMain] INFO  c.s.s.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 16:55:48 [restartedMain] INFO  c.s.s.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 19712 (C:\github\spring-programatic-logging\target\classes started by santosh in C:\github\spring-programatic-logging)
+2020-07-19 16:55:48 [restartedMain] DEBUG c.s.s.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 16:55:48 [restartedMain] INFO  c.s.s.Application:655 - The following profiles are active: dev
+2020-07-19 16:55:49 [restartedMain] INFO  c.s.s.Application:61 - Started Application in 1.893 seconds (JVM running for 2.578)
+2020-07-19 16:55:49 [restartedMain] INFO  c.s.s.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 17:09:49 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 3740 (C:\github\spring-programatic-logging\target\classes started by santosh in C:\github\spring-programatic-logging)
+2020-07-19 17:09:49 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 17:09:49 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 17:09:50 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.881 seconds (JVM running for 2.428)
+2020-07-19 17:09:50 [restartedMain] INFO  c.s.l.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 17:13:25 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 4976 (C:\github\spring-programatic-logging\target\classes started by santosh in C:\github\spring-programatic-logging)
+2020-07-19 17:13:25 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 17:13:25 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 17:13:26 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.763 seconds (JVM running for 2.306)
+2020-07-19 17:13:26 [restartedMain] INFO  c.s.l.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 17:14:20 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 16364 (C:\github\spring-programatic-logging\target\classes started by santosh in C:\github\spring-programatic-logging)
+2020-07-19 17:14:20 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 17:14:20 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 17:14:21 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.763 seconds (JVM running for 2.315)
+2020-07-19 17:14:21 [restartedMain] INFO  c.s.l.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 17:14:47 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 20996 (C:\github\spring-programatic-logging\target\classes started by santosh in C:\github\spring-programatic-logging)
+2020-07-19 17:14:47 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 17:14:47 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 17:14:48 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.961 seconds (JVM running for 2.507)
+2020-07-19 17:14:48 [restartedMain] INFO  c.s.l.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 17:22:18 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 18284 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 17:22:18 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 17:22:18 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 17:22:20 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.98 seconds (JVM running for 2.621)
+2020-07-19 17:22:20 [restartedMain] INFO  c.s.l.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
+2020-07-19 17:22:44 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 10104 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 17:22:44 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 17:22:44 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 17:22:46 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.798 seconds (JVM running for 2.327)
+2020-07-19 17:22:46 [restartedMain] INFO  c.s.l.TestComponent:17 - { "user_id" : "1234", "ssn" : "**********", "favourite_team" : "Juventus", "address" : "*******************", "additional_info_1" : "***********", "additional_info_2" : "**********************" }
