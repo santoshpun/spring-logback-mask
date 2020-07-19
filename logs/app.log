@@ -42,3 +42,33 @@
 2020-07-19 20:40:08 [main] INFO  c.s.l.RegexTester:143 - found: ssn=
 2020-07-19 20:40:08 [main] INFO  c.s.l.RegexTester:143 - found: ssn=
 2020-07-19 20:48:07 [main] INFO  c.s.l.RegexTester:30 - user detail : UserDetail(ssn=3310104322, name=Santosh Pun)
+2020-07-19 21:00:18 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 16352 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 21:00:18 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 21:00:18 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 21:00:19 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.857 seconds (JVM running for 2.386)
+2020-07-19 21:00:19 [restartedMain] INFO  c.s.l.TestComponent:16 - user detail : UserDetail(cardNo=5500000000000004, name=Santosh Pun, password=abc1234)
+2020-07-19 21:00:19 [restartedMain] INFO  c.s.l.TestComponent:18 - { "name" : "Santosh Pun", "cardNo" : "****************", "password" : "*******" }
+2020-07-19 21:02:19 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 19392 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 21:02:19 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 21:02:19 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 21:02:20 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.897 seconds (JVM running for 2.452)
+2020-07-19 21:02:20 [restartedMain] INFO  c.s.l.TestComponent:16 - user detail : UserDetail(cardNo=5500000000000004, name=Santosh Pun, password=abc1234)
+2020-07-19 21:02:20 [restartedMain] INFO  c.s.l.TestComponent:18 - { "name" : "Santosh Pun", "cardNo" : "****************", "password" : "*******" }
+2020-07-19 21:03:09 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 18436 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 21:03:09 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 21:03:09 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 21:03:10 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.776 seconds (JVM running for 2.318)
+2020-07-19 21:03:10 [restartedMain] INFO  c.s.l.TestComponent:16 - user detail : UserDetail(cardNo=5500000000000004, name=Santosh Pun, password=abc1234)
+2020-07-19 21:03:10 [restartedMain] INFO  c.s.l.TestComponent:18 - { "name" : "Santosh Pun", "cardNo" : "****************", "password" : "*******" }
+2020-07-19 21:04:17 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 10268 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 21:04:17 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 21:04:17 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 21:04:18 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.805 seconds (JVM running for 2.349)
+2020-07-19 21:04:18 [restartedMain] INFO  c.s.l.TestComponent:16 - user detail : UserDetail(cardNo=****************, name=Santosh Pun, password=*******)
+2020-07-19 21:04:18 [restartedMain] INFO  c.s.l.TestComponent:18 - { "name" : "Santosh Pun", "cardNo" : "****************", "password" : "*******" }
+2020-07-19 21:04:40 [restartedMain] INFO  c.s.l.Application:55 - Starting Application on DESKTOP-THD9FAS with PID 21608 (C:\github\spring-logback-mask\target\classes started by santosh in C:\github\spring-logback-mask)
+2020-07-19 21:04:40 [restartedMain] DEBUG c.s.l.Application:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-19 21:04:40 [restartedMain] INFO  c.s.l.Application:655 - The following profiles are active: dev
+2020-07-19 21:04:41 [restartedMain] INFO  c.s.l.Application:61 - Started Application in 1.855 seconds (JVM running for 2.398)
+2020-07-19 21:04:41 [restartedMain] INFO  c.s.l.TestComponent:16 - user detail : UserDetail(cardNo=****************, name=Santosh Pun, password=*******)
+2020-07-19 21:04:41 [restartedMain] INFO  c.s.l.TestComponent:18 - { "name" : "Santosh Pun", "cardNo" : "****************", "password" : "*******" }

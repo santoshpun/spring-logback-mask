@@ -9,6 +9,7 @@ import lombok.ToString;
 @ToString
 public class UserDetail {
 
-    private String ssn;
+    private String cardNo;
     private String name;
+    private String password;
 }

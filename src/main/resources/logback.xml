@@ -17,11 +17,11 @@
         <file>${APP_LOG_ROOT}/app.log</file>
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
             <layout class="com.santosh.logging.MaskingPatternLayout">
-                <maskPattern>\"ssn\"\s*:\s*\"(.*?)\"</maskPattern> <!-- SSN JSON pattern -->
-                <maskPattern>\"address\"\s*:\s*\"(.*?)\"</maskPattern> <!-- address JSON pattern -->
-                <maskPattern>(\d+\.\d+\.\d+\.\d+)</maskPattern> <!-- simple IPv4 pattern -->
-                <maskPattern>(\w+@\w+\.\w+)</maskPattern> <!-- simple email pattern -->
-                <maskPattern>Cookie:\s*(.*?)\s</maskPattern> <!-- Cookie header pattern -->
+                <maskPattern>\"cardNo\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Card No JSON pattern -->
+                <maskPattern>\"password\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Password JSON pattern -->
+
+                <maskPattern>cardNo=([a-zA-Z0-9]+)</maskPattern> <!-- Card No object pattern -->
+                <maskPattern>password=([a-zA-Z0-9]+)</maskPattern> <!-- Password object pattern -->
                 <pattern>${LOG_PATTERN}</pattern>
             </layout>
         </encoder>

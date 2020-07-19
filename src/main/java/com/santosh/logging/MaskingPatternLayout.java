@@ -54,31 +54,4 @@ public class MaskingPatternLayout extends PatternLayout {
         }
         return sb.toString();
     }
-
-    public static void main(String[] args) {
-        String message = "{ \"user_id\" : \"1234\", \"ssn\" : \"3310104322\", \"favourite_team\" : \"Juventus\", \"address\" : \"Wiejska 4, Warszawa\", \"additional_info_1\" : \"192.168.1.1\", \"additional_info_2\" : \"bianconeri36@gmail.com\" }";
-
-        List<String> maskPatterns = new ArrayList<>();
-        Pattern multilinePattern;
-        maskPatterns.add("\\\"ssn\\\"\\s*:\\s*\\\"(.*?)\\\"");
-
-        multilinePattern = Pattern.compile(
-                maskPatterns.stream()
-                        .collect(Collectors.joining("|")), // build pattern using logical OR
-                Pattern.MULTILINE
-        );
-
-        StringBuilder sb = new StringBuilder(message);
-        Matcher matcher = multilinePattern.matcher(sb);
-        while (matcher.find()) {
-            IntStream.rangeClosed(1, matcher.groupCount()).forEach(group -> {
-                if (matcher.group(group) != null) {
-                    IntStream.range(matcher.start(group), matcher.end(group))
-                            .forEach(i -> sb.setCharAt(i, '*')); // replace each character with asterisk
-                }
-            });
-        }
-
-        System.out.println(sb.toString());
-    }
 }

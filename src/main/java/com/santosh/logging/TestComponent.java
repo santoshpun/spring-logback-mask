@@ -10,10 +10,11 @@ public class TestComponent {
     public void test1() {
         UserDetail userDetail = new UserDetail();
         userDetail.setName("Santosh Pun");
-        userDetail.setSsn("3310104322");
+        userDetail.setCardNo("5500000000000004");
+        userDetail.setPassword("abc1234");
 
-        //logger.debug("{ \"name\":\"noor\", \"cardNo\":\"12345\" }");
-        //log.info("user detail : " + userDetail);
-        log.info("{ \"user_id\" : \"1234\", \"ssn\" : \"3310104322\", \"favourite_team\" : \"Juventus\", \"address\" : \"Wiejska 4, Warszawa\", \"additional_info_1\" : \"192.168.1.1\", \"additional_info_2\" : \"bianconeri36@gmail.com\" }");
+        log.info("user detail : " + userDetail);
+
+        log.info("{ \"name\" : \"Santosh Pun\", \"cardNo\" : \"5500000000000004\", \"password\" : \"abc1234\" }");
     }
 }
