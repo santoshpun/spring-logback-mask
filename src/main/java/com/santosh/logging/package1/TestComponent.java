@@ -1,5 +1,6 @@
-package com.santosh.logging;
+package com.santosh.logging.package1;
 
+import com.santosh.logging.UserDetail;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

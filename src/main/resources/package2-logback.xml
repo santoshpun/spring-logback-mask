@@ -1,16 +1,10 @@
-<configuration>
-    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
-
-    <property resource="variables-logback.properties"/>
-    <include resource="springframework-logback.xml"/>
-    <include resource="hibernate-logback.xml"/>
-    <include resource="package1-logback.xml"/>
-    <include resource="package2-logback.xml"/>
+<included>
     <include resource="console-logback.xml"/>
+    <property resource="variables-logback.properties"/>
 
-    <appender name="file"
+    <appender name="package2"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${APP_LOG_ROOT}/app.log</file>
+        <file>${APP_LOG_ROOT}/package2.log</file>
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
             <layout class="${MASKER_CLASS_PATH}">
                 <maskPattern>\"cardNo\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Card No JSON pattern -->
@@ -25,7 +19,7 @@
         <rollingPolicy
                 class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover daily and when the file reaches 10 MegaBytes -->
-            <fileNamePattern>${APP_LOG_ROOT}/archived/app-%d{yyyy-MM-dd}.%i.log
+            <fileNamePattern>${APP_LOG_ROOT}/archived/package2/package2-%d{yyyy-MM-dd}.%i.log
             </fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
@@ -34,9 +28,9 @@
         </rollingPolicy>
     </appender>
 
-    <root level="debug">
+    <logger name="com.santosh.logging.package2" level="debug" additivity="false">
         <appender-ref ref="console"/>
-        <appender-ref ref="file"/>
-    </root>
+        <appender-ref ref="package2"/>
+    </logger>
 
-</configuration>
+</included>

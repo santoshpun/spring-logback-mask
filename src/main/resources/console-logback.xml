@@ -1,0 +1,19 @@
+<included>
+    <include resource="org/springframework/boot/logging/logback/default.xml"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+    <property resource="variables-logback.properties"/>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="${MASKER_CLASS_PATH}">
+                <maskPattern>\"cardNo\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Card No JSON pattern -->
+                <maskPattern>\"password\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Password JSON pattern -->
+
+                <maskPattern>cardNo=([a-zA-Z0-9]+)</maskPattern> <!-- Card No object pattern -->
+                <maskPattern>password=([a-zA-Z0-9]+)</maskPattern> <!-- Password object pattern -->
+                <pattern>${LOG_PATTERN}</pattern>
+            </layout>
+        </encoder>
+    </appender>
+    
+</included>
